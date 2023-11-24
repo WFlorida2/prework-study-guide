@@ -12,7 +12,101 @@
       <img src="./assets/bowtie-cat.png" alt="Profile image of cat wearing a bow tie." />
     </header>
     <main>
-      <!-- Student code goes here -->
+
+      <section class="card" id="html-section">
+        <h2>HTML</h2>
+     <ul>
+      <li>What I have learned so far?</li>
+      <li>Think about when developing a webpage is building a sturdy "frame" using HTML, then, using CSS, start thinking about the colors and styles you might want to add to make it uniquely your own.Finaly, add JS to finally enable you and the user to interact with it</li>
+      <li>HTML attributes are always defined in the beginning element, never the closing element</li> 
+      <li>The following element types are commonly used to add content to pages (Text elements, Image elements, Header elements, List elements)</li>
+      <li>The head element contains information about the webpage.</li>
+      <li>The body element represents the visible content shown to the user.</li>
+      <li>Elements that are nested inside other elements are called child elements</li>
+      <li>The element that holds all the children known as the parent element</li>
+      <li>An element refers to the entire element from opening tag to closing tag</li>
+      <li>A tag refers only to what appears inside the angle brackets</li>
+      <li>When using headings, it is important that we use heading tags in order from h1 to h6 to make the page accessible to users who access the page using screen readers or other devices</li>
+      <li>The biggest heading, h1, should only appear once on each page</li>
+      <li>The alt text is important for screen readers and other assistive technologies. Alt text can also improve search engine rankings for your website</li>
+     </ul>
+      </section>
+   
+      <section class="card" id="css-section">
+        <h2>CSS</h2>
+     <ul>
+       <li>What I have learned so far?</li>
+       <li>Coming soon....</li>
+     </ul>
+      </section>
+   
+      <section class="card" id="git-section">
+        <h2>Git</h2>
+        <ul>
+          <li>What I have learned so far?</li>
+          <li>Git is a distributed version control system that tracks changes in any set of computer files</li>
+          <li>usually used for coordinating work among programmers who are collaboratively developing source code during software development</li>
+          <li>Its goals include speed, data integrity, and support for distributed, non-linear workflows</li>
+          <li>An SSH key is an access credential for the SSH (secure shell) network protocol</li>
+          <li>This authenticated and encrypted secure network protocol is used for remote communication between machines on an unsecured open network</li>
+          <li>SSH is used for remote file transfer, network management, and remote operating system access</li>
+          <p>
+            <li>Learned how to create an SSH Key. For more info, please visit Github online notes</li>
+            <br>
+          <li>Follow these steps to generate an SSH key on MAC:
+            <ol>ssh-keygen -t rsa -b 4096 -C "your_email@example.com"</ol>
+            <ol>You will then be prompted to "Enter a file in which to save the key."</ol>
+            <ol>You can specify a file location or press “Enter” to accept the default file location.</ol>
+            <ol>Enter passphrase (empty for no passphrase): [Type a passphrase]</ol>
+            <ol>Enter same passphrase again: [Type passphrase again]</ol>
+          </p>
+          
+           <p>To add the new SSH key to the ssh-agent,do the following:</p> 
+            <li>First ensure the ssh-agent is running by executing:</li>
+            <ol>$ eval "$(ssh-agent -s)"</ol>
+            <ol>Once the ssh-agent is running the following command will add the new SSH key to the local SSH agent:</ol>
+            <ol>ssh-add -K /Users/you/.ssh/id_rsa</ol>
+            <ol>Now, the new SSH key is registered and ready to use!</ol>
+            <p>To add your SSH private key to the ssh-agent and store your passphrase in the keychain, type</p> 
+            <ol>ssh-add --apple-use-keychain ~/.ssh/id_ed25519</ol>
+            <br>Follow these instructions to add the SSH public key to your account on GitHub. For more information, see <a href="https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account">"Adding a new SSH key to your GitHub account."</a>
+            <ol>Remember that it's important to frequently sync the local version of your code with the remote version in GitHub</ol>
+            <br>
+            <ol>Follow the Git flow steps to add, commit, and push our work to our feature branch. Then we will open a pull request, merge our changes with the main branch, and close our first GitHub issue!</ol>
+            <li>Add work</li>
+            <li>Commit work</li>
+            <li>Push work</li>
+            <li>Open a pull request</li>
+            <li>Merge changes with main branch</li>
+            <li>Close issue</li>
+            <br>
+            <p>Complete the following steps to save our work to GitHub to our branch in our working directory</p>
+            <li>git add -A</li>
+            <li>git commit -m "added code to HTML file"</li>
+            <li>git pull origin main</li>
+            <li>it push origin feature/add-html</li>
+            <li>Click the "Pull Requests" tab at the top of your repository</li>
+            <li>Click the "New pull request" button</li>
+            <li>Verify the correct comparison (Base is :Main and to mege: is our branch</li>
+            <li>Once on the pull request form, give your PR a title and a short description of the changes</li>
+            <li>Click the "Create pull request" button</li>
+            <li>Click the "Merge pull request" button</li>
+            <li>Open up our terminal and update our local repository with the new merged-in feature</li>
+            <li>git checkout main
+              git pull origin main</li>
+            <li>Navigate to your repo , select issue and then close the corresponding issue</li>
+          </li>
+        </ul>
+      </section>
+   
+      <section class="card" id="javascript-section">
+        <h2>JavaScript</h2>
+     <ul>
+       <li>What I have learned so far?</li>
+       <li>Coming soon....</li>
+     </ul>
+      </section>
+
     </main>
 
     <footer>
