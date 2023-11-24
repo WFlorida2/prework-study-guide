@@ -14,4 +14,14 @@ In that case above, what are the server we will be using that we trust?
 3. After setting the ssh key, why I can not see the option to use ssh during login to Github?
 4. When opening the VS Code from CLI in Mac, Explorer is not displayed and the prework-study-guide repo not displayed to?
 5. Find and educate myself more on "Branching"
+6. Explain the following:
+   amrshehata@Amrs-MBP prework-study-guide % git status
+   On branch main
+   Your branch is up to date with 'origin/main'.
+
+   Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	assets/
+	index.html
+
    
