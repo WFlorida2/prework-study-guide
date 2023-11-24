@@ -48,4 +48,8 @@ hint: or --ff-only on the command line to override the configured default per
 hint: invocation.
 fatal: Need to specify how to reconcile divergent branches.
 
-8. How I ended up with 2 prework-study-guide as shown on my VSC explorer screen?   
+8. How I ended up with 2 prework-study-guide as shown on my VSC explorer screen?
+9. How to use Version Control to save our work (Very important to memorise):
+    https://bootcampspot.instructure.com/courses/5650/pages/2-dot-4-6-use-git-version-control-to-save-our-work?module_item_id=1132101
+
+   
