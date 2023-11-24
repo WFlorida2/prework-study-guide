@@ -12,3 +12,5 @@ Warning: You may be tempted to use a wildcard like Host * to just apply this 
 In that case above, what are the server we will be using that we trust?
 
 3. After setting the ssh key, why I can not see the option to use ssh during login to Github?
+4. When opening the VS Code from CL in Mac, Explorer is not displayed and the prework-study-guide repo not displayed to?
+5.  
