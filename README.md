@@ -48,4 +48,4 @@ hint: or --ff-only on the command line to override the configured default per
 hint: invocation.
 fatal: Need to specify how to reconcile divergent branches.
 
-   
+8. How I ended up with 2 prework-study-guide as shown on my VSC explorer screen?   
