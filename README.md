@@ -12,3 +12,40 @@ Warning: You may be tempted to use a wildcard like Host * to just apply this 
 In that case above, what are the server we will be using that we trust?
 
 3. After setting the ssh key, why I can not see the option to use ssh during login to Github?
+4. When opening the VS Code from CLI in Mac, Explorer is not displayed and the prework-study-guide repo not displayed to?
+5. Find and educate myself more on "Branching"
+6. Explain the following:
+   amrshehata@Amrs-MBP prework-study-guide % git status
+   On branch main
+   Your branch is up to date with 'origin/main'.
+
+   Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	assets/
+	index.html
+7. Not sure what has happened here:
+
+   amrshehata@Amrs-MBP prework-study-guide % git pull origin main
+remote: Enumerating objects: 14, done.
+remote: Counting objects: 100% (14/14), done.
+remote: Compressing objects: 100% (12/12), done.
+remote: Total 12 (delta 8), reused 0 (delta 0), pack-reused 0
+Unpacking objects: 100% (12/12), 2.94 KiB | 251.00 KiB/s, done.
+From github.com:WFlorida2/prework-study-guide
+ * branch            main       -> FETCH_HEAD
+   96d64d4..db7d38a  main       -> origin/main
+hint: You have divergent branches and need to specify how to reconcile them.
+hint: You can do so by running one of the following commands sometime before
+hint: your next pull:
+hint: 
+hint:   git config pull.rebase false  # merge
+hint:   git config pull.rebase true   # rebase
+hint:   git config pull.ff only       # fast-forward only
+hint: 
+hint: You can replace "git config" with "git config --global" to set a default
+hint: preference for all repositories. You can also pass --rebase, --no-rebase,
+hint: or --ff-only on the command line to override the configured default per
+hint: invocation.
+fatal: Need to specify how to reconcile divergent branches.
+
+   
