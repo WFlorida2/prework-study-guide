@@ -53,3 +53,10 @@ fatal: Need to specify how to reconcile divergent branches.
     https://bootcampspot.instructure.com/courses/5650/pages/2-dot-4-6-use-git-version-control-to-save-our-work?module_item_id=1132101
 
    
+10. We use the -m flag to associate a message with our commit. Commit messages should be short descriptive messages of the changes implemented. Once completed, our Git repository is now up to date with our working directory!
+
+You should see the following output in your terminal:
+
+[feature/add-html 46a625e] added code to HTML file
+1 file changed, 47 insertions(+)
+create mode 100644 index.html  ( This line was not present)
