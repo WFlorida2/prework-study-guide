@@ -60,3 +60,6 @@ You should see the following output in your terminal:
 [feature/add-html 46a625e] added code to HTML file
 1 file changed, 47 insertions(+)
 create mode 100644 index.html  ( This line was not present)
+
+
+REMEMBER : Saving and tracking changes to the repository is an extremely important part of building any coding project.
