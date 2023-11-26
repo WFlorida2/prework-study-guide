@@ -5,7 +5,7 @@
 
 This Prework Study Guide was created for boot camp students who were going through the Prework. It contains notes on HTML, CSS, Git, and JavaScript.
 
-- What was your motivation?
+What was your motivation?
 To learn new technologies and improve on my skills
 - Why did you build this project? (Note: the answer is not "Because it was a homework assignment.")
 Because it helped me install all the applications that needed for my course. This prework study helped me to get prepared with some of the stuff that we will be using going forwared in order to become a developer
